@@ -1,0 +1,1 @@
+npm run coffee:build
