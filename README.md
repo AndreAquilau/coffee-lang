@@ -42,6 +42,11 @@ explicar como funciona a complilação de uma linguagem.
             <td>console.log</td>
             <td>System Prompt Write</td>
         </tr>
+        <tr>
+            <td>:=</td>
+            <td>=</td>
+            <td>Assignment</td>
+        </tr>
     </tbody>
 </table>
 
