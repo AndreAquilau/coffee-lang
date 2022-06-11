@@ -5,7 +5,7 @@
 
 ### Coffee-Lang
 <p>
-O coffe-lang é uma linguagem que é compilada pelo TS-Node-DEV, pacote que roda typescript direto no Node sem precisar compilar compilar para javascript.
+O coffe-lang é uma linguagem que é compilada pelo TS-Node-DEV, pacote que roda typescript direto no Node sem precisar compilar para JavaScript.
 </p>
 <p>
 Para desenvolver o compilador usamos o pacote fs, SystemFile do NodeJS, o código <br>
@@ -17,10 +17,10 @@ explicar como funciona a complilação de uma linguagem.
 <table>
     <thead>
         <th>
-            <td>Sintaxe coffe</td>
+            Sintaxe coffe
         </th>
         <th>
-            <td>Sintaxe Compilada para .ts</td>
+            Sintaxe Compilada para .ts
         </th>
     </thead>
 </table>
