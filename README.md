@@ -23,6 +23,11 @@ explicar como funciona a complilação de uma linguagem.
             Sintaxe Compilada para .ts
         </th>
     </thead>
+    <tbody>
+        <tr>
+            <td></td>
+        </tr>
+    </tbody>
 </table>
 
 ### Dependência
