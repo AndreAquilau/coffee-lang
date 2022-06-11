@@ -1,6 +1,8 @@
 import fs from 'fs';
 const directory = './src/';
 
+
+
 const sintaxe = [
     {
         from: /^stin/,
@@ -43,7 +45,6 @@ fs.readdir('./src', (err, files) => {
                 return md;
             })
             .join(' ');
-
             fs.writeFile('./build/index.ts', newSintaxe, () => {});
         });
     });
