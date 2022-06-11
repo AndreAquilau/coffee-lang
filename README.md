@@ -61,6 +61,10 @@ explicar como funciona a complilação de uma linguagem.
     sys.print(teste);
 ```
 
+### Build Watch 
+```bash
+bash coffe.sh
+```
 ### Dependência
 [NodeJS](https://nodejs.org/en/)
 

@@ -9,7 +9,7 @@ const sintaxe = [
         to: 'let'
     },
     {
-        from: /^sys*/,
+        from: /\\*sys*/,
         to: 'console'
     },
     {
@@ -35,7 +35,7 @@ fs.readdir('./src', (err, files) => {
 
                 sintaxe.map(stx => {
                     
-                    console.log(md,stx.from,stx.from.test(md));
+                    //console.log(md,stx.from,stx.from.test(md));
 
                     md = md.replace(stx.from, stx.to);
                 
