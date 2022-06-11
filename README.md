@@ -25,7 +25,10 @@ explicar como funciona a complilação de uma linguagem.
     </thead>
     <tbody>
         <tr>
-            <td></td>
+            <td>stin</td>
+        </tr>
+        <tr>
+            <td>let</td>
         </tr>
     </tbody>
 </table>
