@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "coffee:run": "ts-node-dev --require tsconfig-paths/register --watch 'src/**/*.*'  --respawn --transpile-only  --ignore-watch node_modules --no-notify ./build/index.ts",
-    "coffee:build": "ts-node-dev --require tsconfig-paths/register --watch 'src/**/*.*' --transpile-only ./main.ts",
-    "coffee:build:watch": "ts-node-dev --require tsconfig-paths/register --watch 'src/**/*.*' --respawn --transpile-only  --ignore-watch node_modules --no-notify ./main.ts"
+    "coffee:run": "ts-node-dev --require tsconfig-paths/register --watch 'src/**/*.*'  --respawn --transpile-only  --ignore-watch node_modules --no-notify ./build/index.ts"
   },
   "keywords": [],
   "author": "",

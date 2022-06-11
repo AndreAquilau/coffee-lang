@@ -1,3 +1,3 @@
-stin teste = 'teste';
+stin teste := 'teste';
 
 sys.print(teste);

@@ -3,40 +3,49 @@ const directory = './src/';
 
 const sintaxe = [
     {
-        from : 'stin',
+        from: /^stin/,
         to: 'let'
     },
     {
-        from : 'sys.print',
-        to: 'console.log'
+        from: /^sys*/,
+        to: 'console'
+    },
+    {
+        from: /\\*print*/,
+        to: 'log'
+    },
+    {
+        from: /^:=/,
+        to: '='
     },
 ]
 
-fs.readdir(directory, (err, files) => {
-    const filesName = [];
 
-    files.forEach(file => {
-        filesName.push(file);
-        //console.log(file);
+
+fs.readdir('./src', (err, files) => {
+    files.filter((file) =>{
+        fs.readFile('./src/'+ file, {encoding: 'utf-8'}, (err, data) => {
+
+            let newSintaxe = data
+            .split(' ')
+            .map((md) => {
+                md.replace(/\n/g, '');
+
+                sintaxe.map(stx => {
+                    
+                    console.log(md,stx.from,stx.from.test(md));
+
+                    md = md.replace(stx.from, stx.to);
+                
+                });
+
+                
+                return md;
+            })
+            .join(' ');
+
+            fs.writeFile('./build/index.ts', newSintaxe, () => {});
+        });
     });
-
-    //console.log(filesName);
-
-    let code = fs.readFileSync( `./src/${filesName[0]}`, 'utf8');
-    let newCode = ''
-
-    sintaxe.map(sint => {
-
-        if(newCode === '') {
-            newCode = code.replace(sint.from, sint.to);
-        } else {
-            newCode = newCode.replace(sint.from, sint.to);
-        }
-
-    });
-
-    //console.log(newCode);
-
-    fs.writeFileSync( `./build/${filesName[0].split('.')[0]}.ts`, newCode);
-
+    
 });
