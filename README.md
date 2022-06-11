@@ -32,6 +32,16 @@ explicar como funciona a complilação de uma linguagem.
             <td>let</td>
             <td>Store Input</td>
         </tr>
+        <tr>
+            <td>stin</td>
+            <td>let</td>
+            <td>Store Input</td>
+        </tr>
+        <tr>
+            <td>sys</td>
+            <td>console</td>
+            <td>System</td>
+        </tr>
     </tbody>
 </table>
 
