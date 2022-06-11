@@ -13,6 +13,9 @@ Para desenvolver o compilador usamos o pacote fs, SystemFile do NodeJS, o códig
 é escrito em um arquivo .coffe, fizemos algunas mudanças no typescript, para <br>
 explicar como funciona a complilação de uma linguagem.
 </p>
+<p>
+Para tudo funcionar o código deve ser escrito no arquivo ./src/index.coffe
+</p>
 
 ### Sintaxe .coffe
 <table>
