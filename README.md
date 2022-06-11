@@ -35,6 +35,11 @@ explicar como funciona a complilação de uma linguagem.
         <tr>
             <td>sys</td>
             <td>console</td>
+            <td>System Prompt</td>
+        </tr>
+        <tr>
+            <td>sys.print</td>
+            <td>console.log</td>
             <td>System Prompt Write</td>
         </tr>
     </tbody>
