@@ -22,11 +22,15 @@ explicar como funciona a complilação de uma linguagem.
         <th>
             Sintaxe Compilada para .ts
         </th>
+        <th>
+            DataType
+        </th>
     </thead>
     <tbody>
         <tr>
             <td>stin</td>
             <td>let</td>
+            <td>Store Input</td>
         </tr>
     </tbody>
 </table>
