@@ -48,6 +48,12 @@ explicar como funciona a complilação de uma linguagem.
             <td>Assignment</td>
         </tr>
     </tbody>
+
+    ```.coffe
+        stin teste := 'teste';
+
+        sys.print(teste);
+    ```
 </table>
 
 ### Dependência
