@@ -49,12 +49,13 @@ explicar como funciona a complilação de uma linguagem.
         </tr>
     </tbody>
 
-    ```.coffe
-        stin teste := 'teste';
-
-        sys.print(teste);
-    ```
 </table>
+
+```.coffe
+    stin teste := 'teste';
+
+    sys.print(teste);
+```
 
 ### Dependência
 [NodeJS](https://nodejs.org/en/)
